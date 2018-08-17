@@ -24,9 +24,10 @@ class IndexController extends Zend_Controller_Action
     	$repo = $em->getRepository("ZC\Entity\User");
     	$u = $em->find("ZC\Entity\User",1);
     	$users = $repo->findAll();
+        // var_dump(APPLICATION_PATH);
     	// var_dump(get_class_methods($em));
     	// var_dump(get_class_methods($repo));
-    	var_dump($users[0]->getFirstname());
+    	// var_dump($users[0]->getFirstname());
         // var_dump($users[0]->lastname);
     }
 }
