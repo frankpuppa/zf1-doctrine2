@@ -26,4 +26,53 @@ class User{
   * @var string
   */
 	private $lastname;
+    /**
+     * Get id
+     *
+     * @return integer $id
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set firstname
+     *
+     * @param string $firstname
+     */
+    public function setFirstname($firstname)
+    {
+        $this->firstname = $firstname;
+    }
+
+    /**
+     * Get firstname
+     *
+     * @return string $firstname
+     */
+    public function getFirstname()
+    {
+        return $this->firstname;
+    }
+
+    /**
+     * Set lastname
+     *
+     * @param string $lastname
+     */
+    public function setLastname($lastname)
+    {
+        $this->lastname = $lastname;
+    }
+
+    /**
+     * Get lastname
+     *
+     * @return string $lastname
+     */
+    public function getLastname()
+    {
+        return $this->lastname;
+    }
 }
