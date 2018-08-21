@@ -107,8 +107,8 @@ class ArtistController extends Zend_Controller_Action
 		$this->view->totalArtist = count($artists);
 		$this->view->artists = $artists;
 		// require_once(APPLICATION_PATH . "/services/TestHelper.php");
-	  $testhelper = new TestHelper();
-		var_dump(dirname(__FILE__));
-		var_dump($testhelper);
+	  // $testhelper = new TestHelper();
+		// var_dump(dirname(__FILE__));
+		var_dump($this->testhelper);
 	}
 }

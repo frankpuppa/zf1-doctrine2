@@ -10,7 +10,9 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 	protected function _initContainer()
 	{
 		$builder = new \DI\ContainerBuilder();
+		$builder->addDefinitions(APPLICATION_PATH . '/configs/config.php');
 		$builder->useAnnotations(true);
+		$builder->useAutowiring(true);
 		$container = $builder->build();
 
 		$dispatcher = new \DI\Bridge\ZendFramework1\Dispatcher();
