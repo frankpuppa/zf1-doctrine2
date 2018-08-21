@@ -2,6 +2,7 @@
     "require": {
         "zendframework/zendframework1": "^1.12",
         "doctrine/annotations": "^1.6",
+        "php-di/php-di": "5.4",
         "php-di/zf1-bridge": "^4.0"
     }
 }

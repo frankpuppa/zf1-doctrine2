@@ -1,6 +1,8 @@
 <?php
 
 use DI\Bridge\ZendFramework1\Dispatcher;
+use DI\ContainerBuilder;
+use Doctrine\Common\Cache\ArrayCache;
 class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 {
 	/**
@@ -9,16 +11,32 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 	 */
 	protected function _initContainer()
 	{
-		$builder = new \DI\ContainerBuilder();
-		$builder->addDefinitions(APPLICATION_PATH . '/configs/config.php');
-		$builder->useAnnotations(true);
-		$builder->useAutowiring(true);
-		$container = $builder->build();
+		$configuration = new Zend_Config($this->getOptions());
 
-		$dispatcher = new \DI\Bridge\ZendFramework1\Dispatcher();
-		$dispatcher->setContainer($container);
+		        $builder = new ContainerBuilder();
+		        $builder->useAnnotations(true);
+		        $builder->useAutowiring(true);
+		        $builder->addDefinitions(APPLICATION_PATH . '/configs/config.php');
+		        // $builder->addDefinitions(APPLICATION_PATH . '/configs/config.' . APPLICATION_ENV . '.php');
+		        // $builder->addDefinitions(APPLICATION_PATH . '/configs/parameters.php');
 
-		Zend_Controller_Front::getInstance()->setDispatcher($dispatcher);
+
+		        if (APPLICATION_ENV === 'production') {
+		            $cache = new MemcachedCache();
+		            $memcached = new Memcached();
+		            $memcached->addServer('localhost', 11211);
+		            $cache->setMemcached($memcached);
+		        } else {
+		            $cache = new ArrayCache();
+		        }
+		        $cache->setNamespace('MyApp');
+		        $builder->setDefinitionCache($cache);
+
+		        $this->container = $builder->build();
+
+		        $dispatcher = new \DI\Bridge\ZendFramework1\Dispatcher();
+		        $dispatcher->setContainer($this->container);
+		        Zend_Controller_Front::getInstance()->setDispatcher($dispatcher);
 	}
 	/**
 	   * Bootstrap::_initRouterRewrites()
