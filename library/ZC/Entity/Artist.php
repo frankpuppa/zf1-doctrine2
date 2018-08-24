@@ -3,6 +3,7 @@ namespace ZC\Entity;
 /**
  * @Table(name="artists")
  * @Entity
+ * @HasLifecycleCallbacks
  * author frank
  */
 
@@ -33,9 +34,16 @@ class Artist{
      */
     private $created_at;
 
+    /**
+     * @Column(type="datetime", nullable=false, length=100)
+     * @var string
+     */
+    private $updated_at;
+
     function __construct()
     {
-        $this->created_at = \DateTime("now");
+        $this->created_at = new \DateTime("now");
+        $this->updated_at = $this->created_at;
     }
 
     /**
@@ -54,8 +62,6 @@ class Artist{
     public function setGenre($genre)
     {
         $this->genre = $genre;
-
-        return $this;
     }
 
     /**
@@ -82,7 +88,21 @@ class Artist{
     public function setArtistName($artist_name)
     {
         $this->artist_name = $artist_name;
+    }
 
-        return $this;
+    /**
+     * @PreUpdate
+     */
+    public function setUpdatedAt()
+    {
+        $this->updated_at = new \DateTime("now");
+    }
+
+    /**
+     * @return string
+     */
+    public function getUpdatedAt()
+    {
+        return $this->updated_at;
     }
 }

@@ -3,6 +3,7 @@ namespace ZC\Entity;
 /**
  * @Table(name="accounts_artists")
  * @Entity
+ * @HasLifecycleCallbacks
  * author frank
  */
 
@@ -13,7 +14,7 @@ class AccountArtist{
   * @Id
   * @GeneratedValue(strategy="AUTO")
   */
-	private $id;
+	  private $id;
   /**
   * @ManyToOne(targetEntity="ZC\Entity\Account")
   */
@@ -28,7 +29,7 @@ class AccountArtist{
   * @Column(type="integer", nullable=true)
   * @var string
   */
-	private $rating;
+	   private $rating;
 
   /**
   * @Column(type="integer", nullable=true)
@@ -43,11 +44,18 @@ class AccountArtist{
     private $created_at;
 
   /**
+  * @Column(type="datetime", nullable=false)
+  * @var string
+  */
+    private $updated_at;
+
+  /**
    * [__construct description]
    */
     function __construct($artist, $account)
     {
-        $this->created_at = \DateTime("now");
+        $this->created_at = new \DateTime("now");
+        $this->updated_at = $this->created_at;
         $this->artist = $artist;
         $this->account = $account;
     }
@@ -68,8 +76,6 @@ class AccountArtist{
     public function setRating($rating)
     {
         $this->rating = $rating;
-
-        return $this;
     }
 
     /**
@@ -88,8 +94,6 @@ class AccountArtist{
     public function setIsFav($is_fav)
     {
         $this->is_fav = $is_fav;
-
-        return $this;
     }
 
     /**
@@ -98,5 +102,21 @@ class AccountArtist{
     public function getCreatedAt()
     {
         return $this->created_at;
+    }
+
+    /**
+     * @PreUpdate
+     */
+    public function setUpdatedAt()
+    {
+        $this->updated_at = new \DateTime("now");
+    }
+
+    /**
+     * @return string
+     */
+    public function getUpdatedAt()
+    {
+        return $this->updated_at;
     }
 }

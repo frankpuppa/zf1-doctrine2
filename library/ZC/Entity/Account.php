@@ -3,6 +3,7 @@ namespace ZC\Entity;
 /**
  * @Table(name="accounts")
  * @Entity
+ * @HasLifecycleCallbacks
  * author frank
  */
 
@@ -28,7 +29,7 @@ class Account{
 	private $email;
 
   /**
-  * @Column(type="string", nullable=true, length=20)
+  * @Column(type="string", nullable=true, length=200)
   * @var string
   */
     private $password;
@@ -69,9 +70,21 @@ class Account{
   */
    private $updated_at;
 
-   public function __construct()
+   /**
+    * [__construct description]
+    * @param [type] $username [description]
+    * @param [type] $email    [description]
+    * @param [type] $password [description]
+    * @param [type] $status   [description]
+    */
+   public function __construct($username,$email,$password, $status)
    {
-        $this->created_at = \DateTime("now");
+        $this->username =$username;
+        $this->email = $email;
+        $this->password = password_hash($password, PASSWORD_DEFAULT);
+        $this->status = $status;
+        $this->created_at = new \DateTime("now");
+        $this->updated_at = $this->created_at;
    }
 
     /**
@@ -139,9 +152,7 @@ class Account{
      */
     public function setPassword($password)
     {
-        $this->password = $password;
-
-        return $this;
+        $this->password = password_hash($password, PASSWORD_DEFAULT);
     }
 
     /**
@@ -160,8 +171,6 @@ class Account{
     public function setStatus($status)
     {
         $this->status = $status;
-
-        return $this;
     }
 
     /**
@@ -180,8 +189,6 @@ class Account{
     public function setEmailNewsletterStatus($email_newsletter_status)
     {
         $this->email_newsletter_status = $email_newsletter_status;
-
-        return $this;
     }
 
     /**
@@ -200,8 +207,6 @@ class Account{
     public function setEmailType($email_type)
     {
         $this->email_type = $email_type;
-
-        return $this;
     }
 
     /**
@@ -220,8 +225,6 @@ class Account{
     public function setEmailFavoriteArtistsStatus($email_favorite_artists_status)
     {
         $this->email_favorite_artists_status = $email_favorite_artists_status;
-
-        return $this;
     }
 
     /**
@@ -233,15 +236,11 @@ class Account{
     }
 
     /**
-     * @param string $updated_at
-     *
-     * @return self
+     * @PreUpdate
      */
     public function setUpdatedAt()
     {
         $this->updated_at = new \DateTime("now");
-
-        return $this;
     }
 
     /**
