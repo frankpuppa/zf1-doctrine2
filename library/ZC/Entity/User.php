@@ -11,7 +11,7 @@ class User{
 	 * @var integer $id
 	 * @Column(name="id", type="integer", nullable=false)
 	 * @Id
-	 * @GeneratedValue(strategy="IDENTITY")
+	 * @GeneratedValue(strategy="AUTO")
 	 */
 	private $id;
 
@@ -26,6 +26,15 @@ class User{
   * @var string
   */
 	private $lastname;
+    /**
+     * [__construct description]
+     * @param [type] $param [description]
+     */
+    public function __construct($first, $last)
+    {
+        $this->firstname = $first;
+        $this->lastname =  $last;
+    }
     /**
      * Get id
      *

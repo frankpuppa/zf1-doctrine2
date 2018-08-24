@@ -11,7 +11,7 @@ class AccountArtist{
   * @var integer $id
   * @Column(name="id", type="integer", nullable=false)
   * @Id
-  * @GeneratedValue(strategy="IDENTITY")
+  * @GeneratedValue(strategy="AUTO")
   */
 	private $id;
   /**

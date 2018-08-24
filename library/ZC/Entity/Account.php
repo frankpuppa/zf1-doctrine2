@@ -11,7 +11,7 @@ class Account{
 	 * @var integer $id
 	 * @Column(name="id", type="integer", nullable=false, unique=true)
 	 * @Id
-	 * @GeneratedValue(strategy="IDENTITY")
+	 * @GeneratedValue(strategy="AUTO")
 	 */
 	private $id;
 
