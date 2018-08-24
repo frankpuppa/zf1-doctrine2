@@ -1,13 +1,24 @@
 <?php
-use ZC\Entity\User;
+use ZC\Entity\Account;
 
 class AccountController extends Zend_Controller_Action
 {
 
-    public function init()
-    {
-        /* Initialize action controller here */
-    }
+     /**
+      * @var Bisna\Application\Container\DoctrineContainer
+      */
+     protected $doctrine;
+
+     /**
+      * @var Doctrine\ORM\EntityManager
+      */
+     protected $em;
+
+     public function init()
+     {
+         $this->doctrine = Zend_Registry::get('doctrine');
+         $this->em = $this->doctrine->getEntityManager();
+     }
 
     public function indexAction()
     {
@@ -22,7 +33,9 @@ class AccountController extends Zend_Controller_Action
             $email = $form->getValue("email");
             $username = $form->getValue("username");
             $password = $form->getValue("password");
-            $user = new User();
+            $account = new Account($username, $email, $password, "active");
+            $this->em->persist($account);
+            $this->em->flush();
 
         }else{
             // $this->view->errors = $form->getMessages();
@@ -64,17 +77,17 @@ class AccountController extends Zend_Controller_Action
         //Create Password Field.
         $form->addElement($LoudbiteElements->getPasswordTextField());
         //Add Captcha
-        $captchaElement = new Zend_Form_Element_Captcha
-        (
-            'signup',
-            array('captcha' => array(
-                'captcha' => 'Figlet',
-                'wordLen' => 6,
-                'timeout' => 600))
-        );
-        $captchaElement->setLabel('Please type in the
-            words below to continue');
-        $form->addElement($captchaElement);
+        // $captchaElement = new Zend_Form_Element_Captcha
+        // (
+        //     'signup',
+        //     array('captcha' => array(
+        //         'captcha' => 'Figlet',
+        //         'wordLen' => 6,
+        //         'timeout' => 600))
+        // );
+        // $captchaElement->setLabel('Please type in the
+        //     words below to continue');
+        // $form->addElement($captchaElement);
         $form->addElement('submit', 'submit');
         $submitButton = $form->getElement('submit');
         $submitButton->setLabel('Create My Account!');
