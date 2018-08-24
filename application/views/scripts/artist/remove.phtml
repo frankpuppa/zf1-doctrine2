@@ -1,21 +1,14 @@
-<?php echo $this->doctype('HTML5'); ?>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<?php echo $this->headTitle('LoudBite.com – Remove Artist'); ?>
-</head>
-<body>
-	<?php echo $this->render('includes/header.phtml') ?>
-	<h3>Remove Artist </h3>
-	<table>
-		<tr>
-			<td>Artists - <i>Total Artists (<?php echo $this->totalArtist; ?>)</i></td>
-		</tr>
-		<?php foreach($this->artists as $artist){ ?>
-			<tr><td><input type="checkbox" value="<?php echo $this->escape($artist['name'])?>"
-				name="remove" /><?php echo $artist['name']?>
-				<?php if($artist['rating'] == 5){ ?> * <?php } ?></td></tr>
-			<?php } ?>
-			<tr><td><input type="submit" value="Remove"/></td></tr>
-		</table>
-	</body>
-	</html>
+<?php echo $this->render("layouts/header.phtml"); ?>
+<h3>Remove Artist </h3>
+<table>
+	<tr>
+		<td>Artists - <i>Total Artists (<?php echo $this->totalArtist; ?>)</i></td>
+	</tr>
+	<?php foreach($this->artists as $artist){ ?>
+		<tr><td><input type="checkbox" value="<?php echo $this->escape($artist['name'])?>"
+			name="remove" /><?php echo $artist['name']?>
+			<?php if($artist['rating'] == 5){ ?> * <?php } ?></td></tr>
+		<?php } ?>
+		<tr><td><input type="submit" value="Remove"/></td></tr>
+	</table>
+	<?php echo $this->render("layouts/footer.phtml"); ?>

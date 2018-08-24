@@ -1,4 +1,12 @@
-<br /><br />
-<div id="view-content">
-	<p>View script for controller <b>Account</b> and script/action name <b>success</b></p>
-</div>
+<?php echo $this->render("layouts/header.phtml"); ?>
+<?php echo $this->render("includes/header.phtml"); ?>
+<h3>Account Sign up</h3>
+<?php
+if($this->errors){
+	echo $this->form;
+}else{
+	echo "Thank you! You are one step closer
+	to becoming a full member.";
+}
+?>
+<?php echo $this->render("layouts/footer.phtml"); ?>

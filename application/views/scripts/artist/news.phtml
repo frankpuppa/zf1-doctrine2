@@ -1,10 +1,4 @@
-<?php echo $this->doctype('HTML5'); ?>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<?php echo $this->headTitle('LoudBite.com – News &amp; Info '); ?>
-</head>
-<body>
-	<?php echo $this->render('includes/header.phtml') ?>
+<?php echo $this->render("layouts/header.phtml"); ?>
 	<h3>News and Info</h3>
 	<table>
 		<tr><td>Artist name goes here</td></tr>
@@ -12,5 +6,4 @@
 		<tr><td>Items of interest</td></tr>
 		<tr><td>Pictures</td></tr>
 	</table>
-</body>
-</html>
+	<?php echo $this->render("layouts/footer.phtml"); ?>
