@@ -1,0 +1,9 @@
+{
+	"settings":
+	{
+		"xdebug":
+		{
+			"url": "http://mywebsite.zend1.com"
+		}
+	}
+}
