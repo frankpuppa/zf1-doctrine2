@@ -1,5 +1,8 @@
 <?php
  use ZC\Helper\TestHelper;
+ use ZC\Entity\Artist;
+ use ZC\Entity\AccountArtist;
+ use ZC\Entity\Account;
 /**
 * Artist Controller.
 *
@@ -13,6 +16,8 @@ class ArtistController extends Zend_Controller_Action
 	 */
 	public function init(){
 		$this->testhelper = new TestHelper();
+		$this->doctrine = Zend_Registry::get('doctrine');
+		$this->em = $this->doctrine->getEntityManager();
 	}
 
 	/**
@@ -55,13 +60,28 @@ class ArtistController extends Zend_Controller_Action
 	* Save the Artist entered by the user.
 	*/
 	public function saveArtistAction(){
-		//Initialize variables
-		$artistName = $this->_request->getPost('artistName');
-		$genre = $this->_request->getPost('genre');
-		$rating	= $this->_request->getPost('rating');
-		$isFav	= $this->_request->getPost('isFav');
-		//Validate
-		//Save the input into the DB
+		//Create instance of artist form.
+		$form = $this->getAddArtistForm();
+		//Check if there were no errors
+		if($form->isValid($_POST)){
+		//Initialize the variables
+			$artistName = $form->getValue('artistName');
+			$genre = $form->getValue('genre');
+			$rating = $form->getValue('rating');
+			$isFav = $form->getValue('isFavorite');
+			$repoA = $this->em->getRepository("ZC\Entity\Account");
+			$accounts = $repoA->findAll();
+			$artist = new Artist($artistName, $genre);
+			$this->em->persist($artist);
+			$accArtist = new AccountArtist($accounts[0], $artist, $isFav, $rating);
+			// var_dump($artist->getAccounts());
+			$this->em->persist($artist);
+			$this->em->persist($accArtist);
+			$this->em->flush();
+		}else{
+			$this->view->errors = $form->getMessages();
+			$this->view->form = $form;
+		}
 	}
 
 	/**
@@ -89,7 +109,7 @@ class ArtistController extends Zend_Controller_Action
 	private function getAddArtistForm()
 	{
 	    $form = new Zend_Form();
-	    $form->setAction("saveartist");
+	    $form->setAction("save-artist");
 	    $form->setMethod("post");
 	    $form->setName("addartist");
 	//Create artist name text field.

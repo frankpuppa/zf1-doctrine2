@@ -1,0 +1,30 @@
+<?php echo $this->render("layouts/header.phtml"); ?>
+<h2>Active User List</h2>
+<table width="600" border="1">
+	<?php if($this->members){ ?>
+		Total active members: <?php echo $this->totalMembers; ?>
+		<tr align="center">
+			<td><b>Member Name</b></td>
+			<td><b>Date Joined</b></td>
+		</tr>
+		<?php
+		foreach($this->members as $member){
+			?>
+			<tr>
+				<td><a href='/<?php echo urlencode($member->getUsername())?>'>
+					<?php echo $member->getUsername()?>
+				</a></td>
+				<td><?php echo $member->getCreatedAt()->format('H:i:s d-m-Y');?></td>
+			</tr>
+			<?php
+		}
+	}else{
+		?>
+		<tr>
+			<td>There are no active members in the system.</td>
+		</tr>
+		<?php
+	}
+	?>
+</table>
+<?php echo $this->render("layouts/footer.phtml"); ?>

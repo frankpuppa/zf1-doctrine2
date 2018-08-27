@@ -1,0 +1,2311 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addAccount"
+			],
+			[
+				"a",
+				"addAccount〔function〕"
+			],
+			[
+				"get",
+				"getCategories\t(Movie.php)"
+			],
+			[
+				"resourcce",
+				"resources.doctrine.orm.defaultEntityManager"
+			],
+			[
+				"Account",
+				"AccountArtist\t(IndexController.php)"
+			],
+			[
+				"addA",
+				"addArtist〔function〕"
+			],
+			[
+				"acc",
+				"accArtist"
+			],
+			[
+				"repo",
+				"repoAccountA〔variable〕"
+			],
+			[
+				"AccountAr",
+				"AccountArtist〔class〕"
+			],
+			[
+				"repoAccountArtis",
+				"repoAccountArtist〔variable〕"
+			],
+			[
+				"repoAccountAr",
+				"repoAccountArtist〔variable〕"
+			],
+			[
+				"find",
+				"findAll〔function〕"
+			],
+			[
+				"artist",
+				"artists_accID"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"cou",
+				"count〔function〕"
+			],
+			[
+				"artis",
+				"$artist〔variable〕"
+			],
+			[
+				"A",
+				"Artist〔class〕"
+			],
+			[
+				"up",
+				"updated_at\t(Account.php)"
+			],
+			[
+				"se",
+				"setUsername\t(Account.php)"
+			],
+			[
+				"update",
+				"updated_at"
+			],
+			[
+				"Mem",
+				"MemcacheCache\t(DoctrineContainer.php)"
+			],
+			[
+				"APPLICATION",
+				"APPLICATION_PATH〔constant〕"
+			],
+			[
+				"isF",
+				"isFavoriteListElement"
+			],
+			[
+				"setV",
+				"setValue〔function〕"
+			],
+			[
+				"is",
+				"$isFavoriteListElement〔variable〕"
+			],
+			[
+				"Errors",
+				"getErrors〔function〕"
+			],
+			[
+				"email",
+				"emailElement"
+			],
+			[
+				"setO",
+				"setOrder〔function〕"
+			],
+			[
+				"Array",
+				"ArrayCache"
+			],
+			[
+				"Cont",
+				"ContainerBuilder"
+			],
+			[
+				"T",
+				"TestHelper.php"
+			],
+			[
+				"name",
+				"namespace\t(ClassLoader.php)"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"pri",
+				"private\t(Test.php)"
+			],
+			[
+				"p",
+				"private\t(Test.php)"
+			],
+			[
+				"APPL",
+				"APPLICATION_PATH\t(IndexController.php)"
+			],
+			[
+				"pro",
+				"production\t(Bootstrap.php)"
+			],
+			[
+				"Ze",
+				"ZendDbSqlRepository"
+			],
+			[
+				"Test",
+				"TestController"
+			],
+			[
+				"interface",
+				"interface_to_update"
+			],
+			[
+				"jsn",
+				"json_server_config"
+			],
+			[
+				"new",
+				"new_interface_data"
+			],
+			[
+				"json_",
+				"json_server_obj"
+			],
+			[
+				"in",
+				"interface"
+			],
+			[
+				"req",
+				"req_body"
+			],
+			[
+				"inte",
+				"interface_file_read"
+			],
+			[
+				"update_db_board_settings_",
+				"update_db_board_settings_prom"
+			],
+			[
+				"push",
+				"pushy-left"
+			],
+			[
+				"pushy",
+				"pushy-link"
+			],
+			[
+				"Ho",
+				"HoneyWords"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"con",
+				"confirm"
+			],
+			[
+				"handle_ac",
+				"handle_account_status_hw_psw"
+			],
+			[
+				"pas",
+				"password_restore"
+			],
+			[
+				"su",
+				"susp_date\tstatement"
+			],
+			[
+				"uo",
+				"update_password\tfunction"
+			],
+			[
+				"ge",
+				"generate_hw\tfunction"
+			],
+			[
+				"re",
+				"response\tstatement"
+			],
+			[
+				"sus",
+				"suspend_date"
+			],
+			[
+				"suspe",
+				"suspend_date"
+			],
+			[
+				"use",
+				"user\tparam"
+			],
+			[
+				"pa",
+				"parse_data\tfunction"
+			],
+			[
+				"Hw",
+				"HwBehaviour"
+			],
+			[
+				"User",
+				"UserManager"
+			],
+			[
+				"hw",
+				"hwbmg"
+			],
+			[
+				"col-md",
+				"col-md-8"
+			],
+			[
+				"pr",
+				"prvbehavior\tstatement"
+			],
+			[
+				"H",
+				"HwBehaviour\tmodule"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"date",
+				"datetime\tclass"
+			],
+			[
+				"fomr",
+				"formdata\tparam"
+			],
+			[
+				"s",
+				"suspend"
+			],
+			[
+				"Dat",
+				"DataRequired\timport"
+			],
+			[
+				"loc",
+				"locked\tparam"
+			],
+			[
+				"form",
+				"formdata\tparam"
+			],
+			[
+				"valid",
+				"validators\tstatement"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"Rule",
+				"RuleManager"
+			],
+			[
+				"col",
+				"col-sm-4"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"tabe",
+				"tablespan"
+			],
+			[
+				"table",
+				"table-responsive"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"account",
+				"accountinfo"
+			],
+			[
+				"suspend",
+				"suspend_date"
+			],
+			[
+				"t",
+				"td\tTag"
+			],
+			[
+				"Edit",
+				"EditAccountInfo\timport"
+			],
+			[
+				"Da",
+				"DateTimeField"
+			],
+			[
+				"B",
+				"HwBehaviour\tmodule"
+			],
+			[
+				"hwb",
+				"hwbehavious"
+			],
+			[
+				"u",
+				"update_hw\tstatement"
+			],
+			[
+				"rule_d",
+				"rule_description\tparam"
+			],
+			[
+				"ru",
+				"rule_name\tparam"
+			],
+			[
+				"rule",
+				"rule_id\tparam"
+			],
+			[
+				"def",
+				"default-0"
+			],
+			[
+				"edi",
+				"editruleForm\tstatement"
+			],
+			[
+				"Submi",
+				"SubmitField\timport"
+			],
+			[
+				"I",
+				"InputRequired"
+			],
+			[
+				"U",
+				"UpdateProfile\tclass"
+			],
+			[
+				"Use",
+				"UserManager"
+			],
+			[
+				"R",
+				"Register\tclass"
+			],
+			[
+				"pass",
+				"password\tparam"
+			],
+			[
+				"ssh",
+				"ssh_hnd"
+			],
+			[
+				"ssh_",
+				"ssh_hnd\tstatement"
+			],
+			[
+				"ss",
+				"ssh_handler\tclass"
+			],
+			[
+				"ar",
+				"args\tstatement"
+			],
+			[
+				"br",
+				"browser_data\tparam"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"col-sm",
+				"col-sm-8"
+			],
+			[
+				"send",
+				"send_async_email\tfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/srv/http/apache/zend1/app/library/ZC/Entity/AccountArtist.php",
+			"settings":
+			{
+				"buffer_size": 2898,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/srv/http/apache/zend1/app/library/ZC/Entity/Artist.php",
+			"settings":
+			{
+				"buffer_size": 2374,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "IndexController.php",
+			"settings":
+			{
+				"buffer_size": 2780,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ArtistController.php",
+			"settings":
+			{
+				"buffer_size": 5217,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/srv/http/apache/zend1/app/library/ZC/Entity/Account.php",
+			"settings":
+			{
+				"buffer_size": 5285,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Xdebug Context",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "|+| \"\n$request->isPost()\"\n|+| \"$request\"\n",
+			"settings":
+			{
+				"buffer_size": 41,
+				"line_ending": "Unix",
+				"name": "Xdebug Watch",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix",
+				"name": "Xdebug Stack",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "=> /srv/http/apache/zend1/app/application/controllers/ArtistController.php\n\t|+| 30\n\t|+| 64\n",
+			"settings":
+			{
+				"buffer_size": 91,
+				"line_ending": "Unix",
+				"name": "Xdebug Breakpoint",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"newA",
+				"File: New File Relative to Current View"
+			],
+			[
+				"succe",
+				"Sublimerge: Compare to Clipboard"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"git:s",
+				"git: status"
+			],
+			[
+				":q",
+				"git: quick commit"
+			],
+			[
+				"git:",
+				"git: branch"
+			],
+			[
+				"git:status",
+				"git: status"
+			],
+			[
+				"git:stat",
+				"git: status"
+			],
+			[
+				"git:branch",
+				"git: branch"
+			],
+			[
+				"git",
+				"git: branch"
+			],
+			[
+				"git:bra",
+				"git: branch"
+			],
+			[
+				"git:bran",
+				"git: branch"
+			],
+			[
+				"git:sta",
+				"git: status"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"Package Control: SFTP",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"Package Control: sftp",
+				"Package Control: Satisfy Dependencies"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+			"b"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/srv/http/apache/zend1/app/application/controllers/app.sublime-project",
+		"/srv/http/apache/zend1/app/application/controllers/IndexController.php",
+		"/srv/http/apache/zend1/app/application/configs/application.ini",
+		"/srv/http/apache/zend1/app/library/ZZ/Entity/Movie.php",
+		"/srv/http/apache/zend1/app/library/ZZ/Entity/Category.php",
+		"/srv/http/apache/zend1/app/library/ZZ/Entity/UserGroup.php",
+		"/srv/http/apache/zend1/app/library/ZZ/Entity/User.php",
+		"/srv/http/apache/zend1/app/application/views/scripts/account/view-all.phtml",
+		"/srv/http/apache/zend1/app/application/views/scripts/account/login.phtml",
+		"/srv/http/apache/zend1/app/application/controllers/ArtistController.php",
+		"/srv/http/apache/zend1/app/library/ZC/Entity/Account.php",
+		"/srv/http/apache/zend1/app/library/ZC/Entity/Artist.php",
+		"/srv/http/apache/zend1/app/application/views/scripts/account/success.phtml",
+		"/srv/http/apache/zend1/app/library/ZC/Entity/AccountArtist.php",
+		"/srv/http/apache/zend1/app/application/controllers/AccountController.php",
+		"/srv/http/apache/zend1/app/public/.htaccess",
+		"/srv/http/apache/zend1/app/library/ZZ/User.php",
+		"/srv/http/apache/zend1/app/application/views/scripts/account/accountmanager.phtml",
+		"/srv/http/apache/zend1/app/library/Doctrine/ORM/EntityManager.php",
+		"/srv/http/apache/zend1/app/library/Doctrine/ORM/EntityRepository.php",
+		"/srv/http/apache/zend1/app/library/Doctrine/DBAL/Statement.php",
+		"/srv/http/apache/zend1/app/library/ZC/Entity/User.php",
+		"/srv/http/apache/zend1/app/application/Bootstrap.php",
+		"/srv/http/apache/zend1/app/application/configs/config.php",
+		"/srv/http/apache/zend1/app/library/Bisna/Application/Container/DoctrineContainer.php",
+		"/srv/http/apache/zend1/app/library/Zend/Registry.php",
+		"/srv/http/apache/zend1/app/library/Doctrine/ORM/QueryBuilder.php",
+		"/srv/http/apache/zend1/app/public/index.php",
+		"/srv/http/apache/zend1/app/application/views/scripts/account/update.phtml",
+		"/srv/http/apache/zend1/app/application/views/scripts/layouts/header.phtml",
+		"/srv/http/apache/zend1/app/application/views/scripts/account/new.phtml",
+		"/srv/http/apache/zend1/app/library/Zend/Form/Element/File.php",
+		"/srv/http/apache/zend1/app/library/Zend/Form/Element/Captcha.php",
+		"/srv/http/apache/zend1/app/library/Zend/Form.php",
+		"/srv/http/apache/zend1/app/application/views/scripts/artist/remove.phtml",
+		"/srv/http/apache/zend1/app/application/views/scripts/artist/profile.phtml",
+		"/srv/http/apache/zend1/app/application/views/scripts/artist/artistaffiliatecontent.phtml",
+		"/srv/http/apache/zend1/app/application/models/Form/FormElements.php",
+		"/srv/http/apache/zend1/app/library/Doctrine/Common/Cache/ArrayCache.php",
+		"/srv/http/apache/zend1/app/vendor/zendframework/zendframework1/library/Zend/Form.php",
+		"/srv/http/apache/zend1/app/application/views/scripts/layouts/footer.phtml",
+		"/srv/http/apache/zend1/app/library/Zend/Form/Element.php",
+		"/srv/http/apache/zend1/app/vendor/zendframework/zendframework1/library/Zend/Form/Element/Radio.php",
+		"/srv/http/apache/zend1/app/vendor/zendframework/zendframework1/library/Zend/Form/Element/Multi.php",
+		"/srv/http/apache/zend1/app/vendor/zendframework/zendframework1/library/Zend/Form/Element/Xhtml.php",
+		"/srv/http/apache/zend1/app/application/views/scripts/artist/news.phtml",
+		"/srv/http/apache/zend1/app/application/views/scripts/artist/new.phtml",
+		"/srv/http/apache/zend1/app/application/views/scripts/account/activate.phtml",
+		"/srv/http/apache/zend1/app/vendor/zendframework/zendframework1/library/Zend/Form/Element/Text.php",
+		"/srv/http/apache/zend1/app/vendor/zendframework/zendframework1/library/Zend/View/Helper/Form.php",
+		"/home/frank/.config/sublime-text-3/Packages/User/CodeComplice.sublime-settings",
+		"/home/frank/.config/sublime-text-3/Packages/CodeComplice/CodeComplice.sublime-settings",
+		"/srv/http/apache/zend1/app/library/Zend/View/Helper/Form.php",
+		"/srv/http/apache/zend1/app/library/Zend/View/Helper/FormElement.php",
+		"/srv/http/apache/zend1/app/library/Zend/Dojo/View/Helper/SubmitButton.php",
+		"/srv/http/apache/zend1/app/application/configs/parameters.php",
+		"/srv/http/apache/zend1/app/vendor/php-di/php-di/src/DI/ContainerBuilder.php",
+		"/srv/http/apache/zend1/app/vendor/php-di/php-di/src/ContainerBuilder.php",
+		"/srv/http/apache/zend1/app/library/ZC/Helper/TestHelper.php",
+		"/srv/http/apache/zend1/app/application/models/TestHelper.php",
+		"/srv/http/apache/zend1/app/application/services/Helper/Application_Service_Helper_TestHelper.php",
+		"/srv/http/apache/zend1/app/application/controllers/TestHelper.php",
+		"/srv/http/apache/zend1/app/application/models/Test.php",
+		"/srv/http/apache/zend1/app/application/views/scripts/artist/Test.php",
+		"/srv/http/apache/zend1/app/library/Zend/Application/Bootstrap/Bootstrap.php",
+		"/srv/http/apache/zend1/app/application/views/scripts/error/error.phtml",
+		"/srv/http/apache/zend1/app/application/controllers/ErrorController.php",
+		"/srv/http/apache/zend1/app/application/configs/routes.ini",
+		"/srv/http/apache/zend1/app/application/views/scripts/artist/save-artist.phtml",
+		"/srv/http/apache/zend1/app/application/views/scripts/account/news.phtml",
+		"/srv/http/apache/zend1/app/application/views/scripts/artist/update.phtml",
+		"/srv/http/apache/zend1/app/application/views/scripts/includes/header.phtml",
+		"/srv/http/apache/zend1/app/library/Zend/Application/Bootstrap/BootstrapAbstract.php",
+		"/srv/http/apache/zend1/app/library/Zend/Application/Bootstrap/ResourceBootstrapper.php",
+		"/srv/http/apache/zend1/app/library/Zend/Application/Bootstrap/Bootstrapper.php",
+		"/srv/http/apache/zend1/app/application/views/scripts/artist/artistaffiliatecontentAction.phtml",
+		"/srv/http/apache/zend1/app/application/routes.ini",
+		"/srv/http/apache/zend1/app/library/ZC/ZC/Entity/User.php",
+		"/srv/http/apache/zend1/app/scripts/User.php",
+		"/srv/http/apache/zend1/app/scripts/doctrine.php",
+		"/srv/http/apache/zend1/app/application/configs/cli-config.php",
+		"/srv/http/apache/zend1/app/bin/doctrine.php",
+		"/srv/http/apache/zend1/app/library/Zend/Controller/Action.php",
+		"/home/frank/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+		"/home/frank/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/frank/sublimeLin",
+		"/home/frank/sublimeWin",
+		"/home/frank/React/Ex_Files_React_EssT_Upd/Exercise Files/Ch03/03_02/start/webpack.config.js",
+		"/srv/http/apache/module/Application/view/layout/layout.phtml",
+		"/srv/http/apache/module/Blog/src/Controller/DeleteController.php",
+		"/srv/http/apache/module/Blog/src/Factory/WriteControllerFactory.php",
+		"/srv/http/apache/module/Blog/config/module.config.php",
+		"/srv/http/apache/config/development.config.php.dist",
+		"/srv/http/apache/module/Blog/src/Factory/ZendDbSqlRepositoryFactory.php",
+		"/srv/http/apache/module/Blog/src/Model/ZendDbSqlRepository.php",
+		"/srv/http/apache/module/Test/view/test/test/react.phtml",
+		"/srv/http/apache/module/Test/src/Controller/TestController.php",
+		"/srv/http/apache/module/Test/config/module.config.php",
+		"/srv/http/apache/config/application.config.php",
+		"/srv/http/apache/vendor/zendframework/zend-http/src/Request.php",
+		"/srv/http/apache/untitled.sublime-project",
+		"/srv/http/apache/module/Blog/view/blog/list/index.phtml",
+		"/srv/http/apache/xdebug.ini",
+		"/srv/http/apache/module/Blog/src/Controller/ListController.php",
+		"/srv/http/apache/module/Blog/src/Form/PostForm.php",
+		"/srv/http/apache/module/Blog/src/Model/PostRepository.php",
+		"/srv/http/apache/module/Blog/src/Model/PostCommand.php",
+		"/srv/http/apache/module/Blog/src/Module.php",
+		"/srv/http/apache/module/Blog/view/blog/write/delete.phtml",
+		"/srv/http/apache/module/Blog/view/blog/write/form.phtml",
+		"/srv/http/apache/module/Blog/view/blog/write/add.phtml",
+		"/srv/http/apache/module/Blog/view/blog/write/edit.phtml",
+		"/srv/http/apache/module/Blog/src/Controller/WriteController.php",
+		"/srv/http/apache/module/Blog/view/blog/list/detail.phtml",
+		"/srv/http/apache/module/Blog/src/Model/ZendDbSqlCommand.php",
+		"/srv/http/apache/module/Blog/src/Factory/ZendDbSqlCommandFactory.php",
+		"/srv/http/apache/module/Blog/src/Form/PostFieldset.php",
+		"/srv/http/apache/module/Blog/src/Factory/DeleteControllerFactory.php",
+		"/srv/http/apache/module/Blog/src/Model/PostCommandInterface.php",
+		"/srv/http/apache/vendor/zendframework/zend-db/src/Adapter/AdapterInterface.php",
+		"/srv/http/apache/module/Blog/view/blog/list/add.phtml",
+		"/srv/http/apache/module/Blog/src/Model/PostRepositoryInterface.php",
+		"/srv/http/apache/module/Album/src/Model/AlbumTable.php",
+		"/srv/http/apache/module/Blog/src/Model/Post.php",
+		"/srv/http/apache/module/Blog/src/Model/ZendDbSqlRepositoryFactory.php",
+		"/srv/http/apache/config/modules.config.php",
+		"/srv/http/apache/data/posts.schema.sql",
+		"/srv/http/apache/module/Blog/src/Factory/ListControllerFactory.php"
+	],
+	"find":
+	{
+		"height": 72.9490509491
+	},
+	"find_in_files":
+	{
+		"height": 163.858141858,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"movie",
+			"movies",
+			"ZZ",
+			"setTitle",
+			"em",
+			"entityManager",
+			"ORM\\",
+			"ZC",
+			"account",
+			"artist",
+			"results",
+			"includes",
+			"fetchA",
+			"setUsername",
+			"getS",
+			"TextA",
+			"form",
+			"function",
+			"succe",
+			"__to",
+			"setOrder",
+			"setOrd",
+			"function",
+			"addElement",
+			"Zend_View_Helper_FormElement",
+			"setLa",
+			"$cache",
+			"cache",
+			"setDe",
+			"cache",
+			"Application_Model_TestHelper",
+			"vendor",
+			"vend",
+			"vende",
+			"library",
+			"loader",
+			"_initRoutingTTT",
+			"Rou",
+			"Param(",
+			"guestbook",
+			"store",
+			"artist",
+			"routes.",
+			"artist",
+			"resources.router.",
+			"routes",
+			"resources.router.",
+			"register",
+			"artist",
+			"archive",
+			"lastname",
+			"first",
+			");\n",
+			"swim",
+			"path",
+			"swimfreedom13",
+			"root"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/srv/http/apache/zend1/app/library/ZC/Entity/AccountArtist.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1655,
+								1655
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1596,
+										1597
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1347,
+										1348
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1660,
+										1661
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1347,
+										1348
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"git_savvy.repo_path": "/srv/http/apache/zend1/app",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1349.65034965,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/srv/http/apache/zend1/app/library/ZC/Entity/Artist.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								585,
+								585
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2393,
+										2394
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										127,
+										128
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2372,
+										2373
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										127,
+										128
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"git_savvy.repo_path": "/srv/http/apache/zend1/app",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 567.432567433,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "IndexController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2769,
+								2769
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2769,
+										2770
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2747,
+										2748
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2769,
+										2770
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2747,
+										2748
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"git_savvy.repo_path": "/srv/http/apache/zend1/app",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1500.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ArtistController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								558,
+								558
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1636,
+										1637
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1162,
+										1163
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										609,
+										610
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										490,
+										491
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"git_savvy.repo_path": "/srv/http/apache/zend1/app",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 600.3996004,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/srv/http/apache/zend1/app/library/ZC/Entity/Account.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										129,
+										130
+									]
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"git_savvy.repo_path": "/srv/http/apache/zend1/app",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 675.324675325,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/srv/http/apache/zend1/app/application/controllers",
+							"incomplete_sync": null,
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"default_dir": "/srv/http/apache/zend1/app/application/controllers",
+							"incomplete_sync": null,
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/srv/http/apache/zend1/app/application/controllers",
+							"incomplete_sync": null,
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 91,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"default_dir": "/srv/http/apache/zend1/app/application/controllers",
+							"incomplete_sync": null,
+							"syntax": "Packages/Xdebug Client/Xdebug.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 72.9490509491
+	},
+	"input":
+	{
+		"height": 71.95004995
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.7,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 132.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 120.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app.sublime-project",
+	"replace":
+	{
+		"height": 63.9360639361
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"succe",
+				"application/views/scripts/account/success.phtml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 354.045954046,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 732.365634366
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"233":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"235":
+				{
+					"group": 0,
+					"index": 1
+				},
+				"236":
+				{
+					"group": 0,
+					"index": 4
+				},
+				"237":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"238":
+				{
+					"group": 0,
+					"index": 3
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 302.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

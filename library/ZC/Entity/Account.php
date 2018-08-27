@@ -1,5 +1,6 @@
 <?php
 namespace ZC\Entity;
+use ZC\Entity\Artist;
 /**
  * @Table(name="accounts")
  * @Entity
@@ -27,6 +28,7 @@ class Account{
   * @var string
   */
 	private $email;
+
 
   /**
   * @Column(type="string", nullable=true, length=200)
@@ -85,6 +87,7 @@ class Account{
         $this->status = $status;
         $this->created_at = new \DateTime("now");
         $this->updated_at = $this->created_at;
+        // $this->artists = new \Doctrine\Common\Collections\ArrayCollection();
    }
 
     /**
@@ -251,4 +254,51 @@ class Account{
         return $this->created_at;
     }
 
+    /**
+     * @return true if password is correct
+     */
+    public function verifyPassword($password){
+        return password_verify($password, $this->password );
+    }
+
+    /**
+     * @param Movie $movie
+     */
+    // public function addArtist(Artist $a)
+    // {
+    //     if (true === $this->artists->contains($a)) {
+    //         return;
+    //     }
+    //     $this->artists->add($a);
+    //     $a->addAccount($this);
+    // }
+
+
+    /**
+     * @return string
+     */
+    public function getUpdatedAt()
+    {
+        return $this->updated_at;
+    }
+
+    /**
+     * @return string
+     */
+    // public function getArtists()
+    // {
+    //     return $this->artists;
+    // }
+
+    /**
+     * @param integer $id $id
+     *
+     * @return self
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+
+        return $this;
+    }
 }

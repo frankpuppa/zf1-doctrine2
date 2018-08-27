@@ -1,6 +1,9 @@
 <?php
 use ZC\Entity\User;
 use ZC\Entity\Account;
+use ZC\Entity\AccountArtist;
+// use ZZ\Entity\Category;
+// use ZZ\Entity\Movie;
 
 class IndexController extends Zend_Controller_Action
 {
@@ -18,6 +21,9 @@ class IndexController extends Zend_Controller_Action
     {
         $this->doctrine = Zend_Registry::get('doctrine');
         $this->em = $this->doctrine->getEntityManager();
+        $this->repoAccount = $this->em->getRepository("ZC\Entity\Account");
+        $this->repoArtist = $this->em->getRepository("ZC\Entity\Artist");
+        $this->repoAccountA = $this->em->getRepository("ZC\Entity\AccountArtist");
     }
 
     // public function getDoctrineContainer()
@@ -37,19 +43,41 @@ class IndexController extends Zend_Controller_Action
     	// $this->doctrineContainer = Zend_Registry::get("doctrine");
     	// $em = $this->doctrineContainer->getEntityManager();
     	 // $repoU = $this->em->getRepository("ZC\Entity\User");
-         $repoA = $this->em->getRepository("ZC\Entity\Account");
-    	// $u = $em->find("ZC\Entity\User",1);
+         // $repoA = $this->em->getRepository("ZC\Entity\Account");
+    	// $u = $this->em->find("ZC\Entity\AccountArtist",1);
+        // var_dump($u);
+        // var_dump(count($u->artists));
     	 // $users = $repoU->findAll();
-         $accounts = $repoA->findAll();
+         // $accounts = $repoA->findAll();
         // var_dump(APPLICATION_PATH);
     	// var_dump(get_class_methods($em));
     	// var_dump(get_class_methods($repo));
-    	var_dump($accounts[0]->setUsername("newUserrr"));
-        $this->em->persist($accounts[0]);
-        $this->em->flush();
+    	// var_dump($accounts[0]->setUsername("newUserrr"));
+     //    $this->em->persist($accounts[0]);
+     //    $this->em->flush();
+        // $query = $this->em->createQuery("SELECT a FROM ZC\Entity\Account a WHERE a.status='active'");
+        // $accounts = $query->getResult();
+        // $accounts = $this->repoAccount->findBy(["status" => "active"]);
+        // $accounts = $this->repoAccountA->find();
+        // var_dump($accounts);
 
         // var_dump($users);
-        var_dump($accounts);
+        // var_dump($accounts);
         // var_dump($users[0]->getLastname());
+        // $movie = new Movie();
+        // $movie->setTitle('Star Wars');
+        // $category = new Category;
+        // $category->setName('Drama');
+        // $movie = $this->em->getRepository('ZZ\Entity\Movie')->findOneByTitle('Star Wars');
+        // var_dump($movie->getCategories()[0]->getName());
+        // $this->em->persist($movie);
+        // $this->em->flush();
+        $accounts = $this->repoAccount->findBy(["status" => "active"]);
+        // $e=$accounts[0]->getArtists();
+        // $acc = $this->repoAccountA->findAll();
+        $acc = $this->repoAccountA->findBy(["account_id" => $accounts[0]->getId(),
+                "is_fav" => 1]);
+        var_dump($acc);
+        // var_dump($accounts[0]->getArtists()[0]->getName());
     }
 }

@@ -28,6 +28,7 @@ class Artist{
     */
     private $genre;
 
+
     /**
      * @Column(type="datetime", nullable=false, length=100)
      * @var string
@@ -40,10 +41,13 @@ class Artist{
      */
     private $updated_at;
 
-    function __construct()
+    function __construct($name, $genre)
     {
         $this->created_at = new \DateTime("now");
         $this->updated_at = $this->created_at;
+        $this->artist_name = $name;
+        $this->genre = $genre;
+        // $this->accounts = new \Doctrine\Common\Collections\ArrayCollection();
     }
 
     /**
@@ -104,5 +108,43 @@ class Artist{
     public function getUpdatedAt()
     {
         return $this->updated_at;
+    }
+
+    /**
+     * @param Category $category
+     */
+    // public function addAccount(Account $acc)
+    // {
+    //     if (true === $this->accounts->contains($acc)) {
+    //         return;
+    //     }
+    //     $this->accounts->add($acc);
+    //     $acc->addArtist($this);
+    // }
+    /**
+     * Returns accounts
+     */
+    // public function getAccounts(){
+    //     return $this->accounts;
+    // }
+
+    /**
+     * @return integer $id
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param integer $id $id
+     *
+     * @return self
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+
+        return $this;
     }
 }

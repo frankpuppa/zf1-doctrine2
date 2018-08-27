@@ -1,5 +1,6 @@
 <?php
 namespace ZC\Entity;
+use Doctrine\Common\Collections\ArrayCollection;
 /**
  * @Table(name="accounts_artists")
  * @Entity
@@ -15,15 +16,16 @@ class AccountArtist{
   * @GeneratedValue(strategy="AUTO")
   */
 	  private $id;
+
   /**
-  * @ManyToOne(targetEntity="ZC\Entity\Account")
+  * @Column(name="account_id", type="integer", nullable=false)
   */
-    private $account;
+    private $account_id;
 
  /**
-  * @ManyToOne(targetEntity="ZC\Entity\Artist")
+  * @Column(name="artist_id", type="integer", nullable=false)
   */
-    private $artist;
+    private $artist_id;
 
   /**
   * @Column(type="integer", nullable=true)
@@ -52,12 +54,14 @@ class AccountArtist{
   /**
    * [__construct description]
    */
-    function __construct($artist, $account)
+    function __construct($account, $artist, $isFav, $rating)
     {
         $this->created_at = new \DateTime("now");
         $this->updated_at = $this->created_at;
-        $this->artist = $artist;
-        $this->account = $account;
+        $this->artist_id = $artist->getId();
+        $this->account_id = $account->getId();
+        $this->is_fav = $isFav;
+        $this->rating = $rating;
     }
 
     /**
@@ -118,5 +122,43 @@ class AccountArtist{
     public function getUpdatedAt()
     {
         return $this->updated_at;
+    }
+
+    public function addArtist(Artist $artist)
+    {
+      $this->artist_id=$artist->getId();
+    }
+
+    public function addAccount(Account $account)
+    {
+      $this->account_id = $account->getId() ;
+    }
+
+    public function getArtist(){
+      return $this->artist_id;
+    }
+
+    public function getAccount(){
+      return $this->account_id;
+    }
+
+    /**
+     * @param integer $id $id
+     *
+     * @return self
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+
+        return $this;
+    }
+
+    /**
+     * @return integer $id
+     */
+    public function getId()
+    {
+        return $this->id;
     }
 }
