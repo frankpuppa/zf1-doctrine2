@@ -80,4 +80,39 @@ class IndexController extends Zend_Controller_Action
         var_dump($acc);
         // var_dump($accounts[0]->getArtists()[0]->getName());
     }
+
+    public function ajaxAction(){
+
+    }
+
+    public function testAction(){
+        $genres = array(
+                "electronic"
+                => "Electronic",
+                "country"
+                => "Country",
+                "rock"
+                => "Rock",
+                "r_n_b"
+                => "R & B",
+                "hip_hop"
+                => "Hip-Hop",
+                "heavy_metal" => "Heavy-Metal",
+                "alternative_rock" => "Alternative Rock",
+                "christian"
+                => "Christian",
+                "jazz"
+                => "Jazz",
+                "pop"
+                => "Pop"
+            );
+        if($this->_request->isXmlHttpRequest()){
+        //Save the user into the system.
+            echo json_encode($genres);
+            exit;
+        }else{
+            throw new Exception("Whoops. Wrong way of submitting your information.");
+        }
+
+    }
 }

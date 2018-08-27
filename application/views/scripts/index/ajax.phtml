@@ -1,0 +1,32 @@
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+
+<html>
+<body>
+    <div id="container">
+        <h2>Hello</h2>
+        <input type="button" name="btn" value="GET" onclick=run_ajax() />
+        <ul id="list">
+        </ul>
+    </div>
+</body>
+<script>
+    function run_ajax(){
+        // alert("HEllo");
+    $.ajax({
+            url: "http://mywebsite.zend1.com/index/test",
+            success: function(result){
+            var data= JSON.parse(result);
+            // console.log(data);
+
+            for(var el in data){
+                $('#list').append('<li>' + el+'</li>');
+            }
+            // console.log(result);
+        }
+    });
+}
+</script>
+</html>
