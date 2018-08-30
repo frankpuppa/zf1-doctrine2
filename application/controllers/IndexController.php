@@ -81,6 +81,10 @@ class IndexController extends Zend_Controller_Action
         // var_dump($accounts[0]->getArtists()[0]->getName());
     }
 
+    public function reactAction(){
+
+    }
+
     public function ajaxAction(){
 
     }
